@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+     
+.heading{
+    font-size: 40px;
+}
+
+.card{
+    width: 150px;
+}
+
+#result{
+    border: 0.5px solid rgb(211, 195, 195);
+    padding: 15px;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("weather.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.carrrd{
+    opacity: 0.5;
+    transition: 0.1 ease ;
+}
+.carrrd:hover{
+    opacity: 1;
+}
+
+.card{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 20px 20px;
+    background: hsl(1, 46%, 68%); 
+    box-shadow: 1px 1px 20px rgb(190, 190, 90);
+}
